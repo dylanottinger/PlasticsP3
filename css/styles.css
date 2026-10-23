@@ -498,3 +498,26 @@ a { color: var(--accent-dark); }
   max-width: 48rem;
 }
 .quote footer { margin-top: 1rem; font-size: 0.95rem; font-weight: 700; color: var(--text-muted); }
+
+/* Founder profile (source photo is small; keep it near native size) */
+.profile {
+  margin: 0;
+  justify-self: center;
+  text-align: center;
+  background: var(--white);
+  border: 1px solid var(--steel-200);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2rem 2.5rem;
+}
+.profile img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 1.25rem;
+  border: 4px solid var(--steel-100);
+}
+.profile strong { display: block; font-size: 1.2rem; }
+.profile span { display: block; color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0.5rem; }
+.profile a { font-weight: 700; text-decoration: none; }
